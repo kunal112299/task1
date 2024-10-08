@@ -1,0 +1,101 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.main{
+    padding-top: 2%;
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(164, 240, 177);
+    border-radius: 2px;
+    border-color: rgb(9, 111, 77);
+}
+.first{
+    border: 2px solid rgb(54, 44, 163);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 2%;
+    margin-right: 2%;
+    background-color: rgb(145, 204, 243);
+    width:96%;
+    height: 21vh;    
+}
+.first-fir{
+    background-color: rgb(208, 163, 128);
+    width: 30%;
+    height: 80%;
+    margin: 2.5%;
+    border: 3px solid rgb(113, 44, 19)
+}
+.first-fir-sec{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(208, 163, 128);
+    width: 30%;
+    height: 80%;
+    margin: 0.8%;
+    border: 3px solid rgb(113, 44, 19)
+}
+.first-fir-fir{
+    width: 42%;
+    height: 80%;
+    background-color: rgb(223, 150, 150);
+    border: 3px solid rgb(222, 40, 40);
+}
+.second{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width:96%;
+    height: 60vh;
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 1%;
+}
+.second-fir{
+    background-color: pink;
+    width: 49%;
+    border: 2px solid brown;
+    height: 58vh;
+}
+.second-sec{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 58vh;
+    width: 49%;
+}
+.second-sec-fir{
+    width: 100%;
+    height: 48%;
+    background-color: pink;
+    border: 2px solid brown;
+}
+.third{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(145, 204, 243);
+    margin-left: 2%;
+    margin-right: 2%;
+    margin-top: 1%;
+    width:96%;
+    height: 12vh;
+    border: 3px solid blue;
+}
+.third-one{
+    margin: 0.5%;
+    width: 28%;
+    height: 80%;
+    background-color: rgb(201, 185, 242);
+    border: 3px solid purple;
+}
+.third-two{
+    margin: 0.5%;
+    width: 19%;
+    height: 80%;
+    background-color: rgb(208, 163, 128);
+    border: 3px solid brown;
+}
